@@ -8,6 +8,13 @@ public class ArraySum {
      */
     public int sum(int[] arr){
 
-        return 0;
+        int sumOfArray = 0;
+
+        for ( int number : arr) {
+            
+            sumOfArray = sumOfArray + number;
+        }
+
+        return sumOfArray;
     }
 }
